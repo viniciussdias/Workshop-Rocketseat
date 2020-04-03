@@ -1,0 +1,97 @@
+
+/*
+CSS
+
+Cascading StyleSheet
+
+*/
+
+/*
+
+  BOX
+    Largura
+    Altura
+    Conteúdo da caixa
+
+    Espaçamentos
+    Preenchimento
+    Bordas
+
+    Posicionamentos
+
+
+*/
+
+body {
+    background: #e5e5e5;
+    color: #25282b;
+    margin: 0;
+}
+
+#container {
+    width: 80%;
+    max-width: 980px;
+    margin: 40px auto;
+    display: flex;
+}
+
+#intro {
+    width: 300px;
+    margin-right: 20px;
+}
+
+main {
+    margin: 32px 0;
+}
+
+#buttons {
+    display: flex;
+    margin-bottom: 32px;
+    justify-content: space-evenly;
+
+}
+
+button {
+    color: #ff5E84;
+    border: none;
+    font-weight: bold;
+    background: none;
+    cursor: pointer;
+    outline: none;
+
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+button.fat {
+    color: white;
+    background: #ff5E84;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.16);
+}
+
+button.fat:hover {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
+
+#footer a {
+    color: #25282B;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff5E84;
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
